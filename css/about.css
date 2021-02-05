@@ -1,0 +1,31 @@
+main{
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+p{
+    color: gray;
+    
+}
+
+.about{
+    background: darkolivegreen;
+    padding: 25px;
+}
+
+img {
+    height: 150px;
+    width: 150px ;
+}
+
+.column{
+    float: left;
+    margin-right: 16px;
+    width: 20%;
+    margin-top: 16px;
+}
+
+.card{
+    box-shadow: 0px 4px 8px 0 #b3b3b3f5;
+    padding: 0 16px 0 16px;
+}
