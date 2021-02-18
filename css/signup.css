@@ -1,0 +1,30 @@
+.bg-cover {
+    background-image: url("../images/dollySods.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.container {
+   
+width: 50%;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.signup-form {
+    border-radius: 50px;
+    background-color: rgba(71, 87, 104, 0.75);
+    padding: 25px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+}
