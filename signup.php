@@ -39,7 +39,7 @@ require "includes/header.php"
                                 <input type="checkbox" value="remember-me"> Remember me
                             </label>
                         </div>
-                        <button class="btn btn-lg btn-success btn-block" name="login-submit" type="submit">Sign up</button>
+                        <button class="btn btn-lg btn-success btn-block" name="signup-submit" type="submit">Sign up</button>
                         <p class="mt-5 mb-3">&copy; 2020-2021</p>
                     </form>
                 </div>
