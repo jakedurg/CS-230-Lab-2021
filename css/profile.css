@@ -1,0 +1,25 @@
+.center-me {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: "center";
+}
+
+#prof-display {
+    display: block;
+    border: 1px solid rgb(51, 113, 206);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    justify-content: center;
+}
+
+#prof-display:hover{
+    box-shadow: 0 0 2px 1px rgb(32, 116, 15);
+}
+
+#uname-style {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
