@@ -36,7 +36,7 @@ session_start();
             <ul class="navbar-nav mr-auto">
                 <?php if(isset($_SESSION['uid'])){
                     echo '<li class="nav-item">
-                    <a class = "nav-link" href="includes/logout.php>Logout</a>
+                    <a class = "nav-link" href="includes/logout.php">Logout</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="trails.php">Disocver Trails</a>
@@ -47,12 +47,12 @@ session_start();
 
                 }else{
                      echo '<li class="nav-item">
-                        <a class="nav-link" href="../login.php">Login</a>
+                        <a class="nav-link" href="login.php">Login</a>
                     </li>';
                 }
                 ?>
                     <li class="nav-item active">
-                        <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li> 
                     <!-- to impliment dropdown -->
                     
