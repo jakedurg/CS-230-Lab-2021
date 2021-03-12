@@ -21,7 +21,7 @@ session_start();
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-        <link rel="stylesheet" href="../css/signup.css">
+        <link rel="stylesheet" href="css/signup.css">
 
     </head>
     <header>
@@ -43,6 +43,9 @@ session_start();
                     </li>
                 <li class="nav-item">
                     <a class="nav-link" href="profile.php">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.php">Admin</a>
                 </li>';
 
                 }else{

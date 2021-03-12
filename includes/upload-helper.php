@@ -37,12 +37,12 @@ if(isset($_POST['prof-submit'])){
     else {
         $new_name = uniqid('', true).".".$ext;
 
-        $destination = '../profiles/'.$new_name;
-
+        $destination = '../CS-230-Lab-2021/profiles/'.$new_name;
+        $moveDest = '../profiles/'.$new_name;
         $sql = "UPDATE profiles SET profpic='$destination' WHERE uname='$uname'";
         mysqli_query($conn, $sql);
 
-        move_uploaded_file($file_tmp_name, $destination);
+        move_uploaded_file($file_tmp_name, $moveDest);
         header("Location: ../profile.php?success=UploadWin");
         exit();
     }
