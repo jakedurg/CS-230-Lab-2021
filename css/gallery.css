@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+img{
+    max-width: 220px;
+    max-height: 220px;
+    margin-top: 10px;
+}
+
+.gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 5px;
+    margin: 20px;
+    width: 20%;
+    max-width: 280px;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(97, 96, 96, 0.952);
+    background-position: center;
+    background-size: cover;
+
+}
+
+a:hover{
+    opacity: 70%;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+}
