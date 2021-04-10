@@ -43,3 +43,18 @@ a:hover{
     background-size: cover;
     background-position: center;
 }
+.outer-bg-cover{
+    background-color: rgba(71, 87, 104, 0.75);
+    height: 100vh;
+}
+.inner-bg-cover{
+    background-color: white;
+    height: 90vh;
+    width: auto;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    padding: 20px
+    
+}
