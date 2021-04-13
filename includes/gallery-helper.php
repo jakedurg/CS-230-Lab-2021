@@ -39,7 +39,7 @@ if(isset($_POST['gallery-submit'])){
     else {
         $new_name = uniqid('', true).".".$ext;
 
-        $destination = '../CS-230-Lab-2021/gallery/'.$new_name;
+        $destination = 'gallery/'.$new_name;
         $moveDest = '../gallery/'.$new_name;
 
         $sql = "INSERT INTO gallery (title, descript, picpath) VALUES (?,?,?)";
